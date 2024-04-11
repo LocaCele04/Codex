@@ -1,0 +1,23 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+	double x;
+	int s,y;
+	s=0;
+	y=0;
+	
+	do{cout<<"inserisci un numero";
+	cin>>x;
+	if(floor(x)==x){
+		s++;
+		y+=x;
+	}else {
+		y+=x;
+		
+	}
+		
+	}while(x!=9999);
+	cout<<"la somma n interi \212"<<s<<endl;
+	cout<<"la somma di tutti i numeri "<<y<<endl;
+}

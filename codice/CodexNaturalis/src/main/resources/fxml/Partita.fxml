@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" style="-fx-background-color: FFFF90;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prog.ogg.tdp.Codex.FXMLControllerPartita">
+   <children>
+      <VBox layoutY="255.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <HBox>
+               <children>
+                  <ImageView fx:id="mazzoRis" fitHeight="53.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" />
+                  <ImageView fx:id="ris1" fitHeight="53.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="ris2" fitHeight="53.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="40.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox>
+               <children>
+                  <ImageView fitHeight="53.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+                     <image>
+                        <Image url="@immagini/obb.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="53.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@immagini/obb.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="53.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@immagini/obb.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="40.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox>
+               <children>
+                  <ImageView fitHeight="53.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+                     <image>
+                        <Image url="@immagini/obb.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="53.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@immagini/obb.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="53.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@immagini/obb.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="69.0" layoutY="574.0">
+         <children>
+            <Label alignment="CENTER" text="MAZZO" textAlignment="CENTER" textFill="BLUE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0">
+               <children>
+                  <VBox alignment="CENTER">
+                     <children>
+                        <Label text="OBIETTIVO SEGRETO" />
+                        <ImageView fitHeight="67.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@immagini/obb.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </ImageView>
+                     </children>
+                     <HBox.margin>
+                        <Insets left="15.0" right="15.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox alignment="BOTTOM_CENTER">
+                     <children>
+                        <HBox fx:id="HBoxMazzoFila1" alignment="CENTER">
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox fx:id="HBoxMazzoFila2" alignment="CENTER" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="113.0" layoutY="215.0" text="BANCO" textFill="BLUE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <VBox alignment="CENTER" layoutX="894.0" layoutY="58.0" prefHeight="627.0" prefWidth="306.0">
+         <children>
+            <ImageView fitHeight="591.0" fitWidth="317.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@immagini/segnapunti.png" />
+               </image>
+            </ImageView>
+            <Label text="SEGNAPUNTI" textFill="BLUE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <ComboBox layoutX="167.0" layoutY="109.0" prefHeight="25.0" prefWidth="79.0" />
+      <Label layoutX="20.0" layoutY="106.0" text="cambia visuale:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelTurno" alignment="CENTER" contentDisplay="CENTER" layoutX="20.0" layoutY="43.0" text="E' IL TUO TURNO: " textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

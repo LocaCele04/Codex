@@ -1,0 +1,9 @@
+.button {
+    -fx-font-weight: bold;
+}
+
+.root {
+    -fx-background-image: url("../fxml/immagini/sfondoScena2.jpg");
+    -fx-background-size: cover; /* Adatta l'immagine di sfondo alla dimensione del nodo radice */
+    -fx-background-repeat: no-repeat; /* Non ripetere l'immagine di sfondo */
+}

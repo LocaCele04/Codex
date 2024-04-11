@@ -1,0 +1,153 @@
+[
+    {
+        "altSx": {
+            "stato": "ESISTE",
+            "simbolo": "FUNGO"
+        },
+
+        "altDx": {
+            "stato": "ESISTE",
+            "simbolo": "NULLO"
+        },
+
+        "basSx": {
+            "stato": "ESISTE",
+            "simbolo": "FUNGO"
+        },
+
+        "basDx": {
+            "stato": "INESISTENTE",
+            "simbolo": "NULLO"
+        },
+
+        "punti": 0,
+        "colore": "red"
+    },
+
+    {
+        "altSx": {
+            "stato": "ESISTE",
+            "simbolo": "NULLO"
+        },
+
+        "altDx": {
+            "stato": "ESISTE",
+            "simbolo": "NULLO"
+        },
+
+        "basSx": {
+            "stato": "ESISTE",
+            "simbolo": "FOGLIA"
+        },
+
+        "basDx": {
+            "stato": "INESISTENTE",
+            "simbolo": "NULLO"
+        },
+
+        "punti": 1,
+        "colore": "green"
+    },
+
+    {
+        "altSx": {
+            "stato": "ESISTE",
+            "simbolo": "FUNGO"
+        },
+
+        "altDx": {
+            "stato": "ESISTE",
+            "simbolo": "NULLO"
+        },
+
+        "basSx": {
+            "stato": "ESISTE",
+            "simbolo": "FUNGO"
+        },
+
+        "basDx": {
+            "stato": "INESISTENTE",
+            "simbolo": "NULLO"
+        },
+
+        "punti": 0,
+        "colore": "red"
+    },
+
+    {
+        "altSx": {
+            "stato": "ESISTE",
+            "simbolo": "NULLO"
+        },
+
+        "altDx": {
+            "stato": "ESISTE",
+            "simbolo": "NULLO"
+        },
+
+        "basSx": {
+            "stato": "ESISTE",
+            "simbolo": "FOGLIA"
+        },
+
+        "basDx": {
+            "stato": "INESISTENTE",
+            "simbolo": "NULLO"
+        },
+
+        "punti": 1,
+        "colore": "green"
+    },
+
+    {
+        "altSx": {
+            "stato": "ESISTE",
+            "simbolo": "FUNGO"
+        },
+
+        "altDx": {
+            "stato": "ESISTE",
+            "simbolo": "NULLO"
+        },
+
+        "basSx": {
+            "stato": "ESISTE",
+            "simbolo": "FUNGO"
+        },
+
+        "basDx": {
+            "stato": "INESISTENTE",
+            "simbolo": "NULLO"
+        },
+
+        "punti": 0,
+        "colore": "red"
+    },
+
+    {
+        "altSx": {
+            "stato": "ESISTE",
+            "simbolo": "NULLO"
+        },
+
+        "altDx": {
+            "stato": "ESISTE",
+            "simbolo": "NULLO"
+        },
+
+        "basSx": {
+            "stato": "ESISTE",
+            "simbolo": "FOGLIA"
+        },
+
+        "basDx": {
+            "stato": "INESISTENTE",
+            "simbolo": "NULLO"
+        },
+
+        "punti": 1,
+        "colore": "green"
+    }
+    
+  ]
+  
